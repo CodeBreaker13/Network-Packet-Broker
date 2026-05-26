@@ -2,7 +2,7 @@
   <img src="./demo.gif" width="100%" />
 </p>
 
-<h1 align="center">🟣 NetBroker — Network Packet Broker Engine</h1>
+<h1 align="center"> NetBroker — Network Packet Broker Engine</h1>
 <h3 align="center">
 Realtime Network Packet Broker Simulation powered by a hand-built Max Heap
 </h3>
