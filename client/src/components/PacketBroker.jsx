@@ -279,7 +279,7 @@ export default function App() {
             `💥 TAIL DROP: ${pkt.id} [${pkt.name}] — Low priority bandwidth saturation overflow`,
             "drop",
           );
-          return Math.min(prevBW + pkt.size, 115);
+          // return Math.min(prevBW + pkt.size, 115);
           return prevBW;
         } else if (prevBW + pkt.size > BW_LIMIT && pkt.priority === 2) {
           if (Math.random() < 0.5) {
@@ -295,8 +295,8 @@ export default function App() {
               `✅ PROCESS: ${pkt.id} [${pkt.name}] ${pkt.size}MB MEDIUM priority accepted`,
               "ok",
             );
-            return Math.min(prevBW + pkt.size, 115);
-            return prevBW;
+            //return Math.min(prevBW + pkt.size, 115);
+            return prevBW + pkt.size;
           }
         } else {
           setProcessed((p) => [...p, pkt]);
@@ -304,8 +304,8 @@ export default function App() {
             `✅ PROCESS: ${pkt.id} [${pkt.name}] ${pkt.size}MB ${priLabel[pkt.priority]} priority cleared`,
             "ok",
           );
-          return Math.min(prevBW + pkt.size, 115);
-          //return prevBW + pkt.size;
+          // return Math.min(prevBW + pkt.size, 115);
+          return prevBW + pkt.size;
         }
       });
 
