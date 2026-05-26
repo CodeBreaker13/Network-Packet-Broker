@@ -681,7 +681,8 @@ export default function App() {
       </main>
 
       <footer className="max-w-7xl mx-auto px-6 mt-14 pt-6 border-t border-purple-900/30 text-center text-xs text-gray-500 font-mono font-bold tracking-wider uppercase relative z-10">
-        System Core Pipeline · Pure DSA Architecture Engine Execution
+        System Core Pipeline · Pure DSA Architecture Engine Execution || Made by
+        Gourav Ved · Instrumentation & Control Engineering · 2024-2028
       </footer>
     </div>
   );
