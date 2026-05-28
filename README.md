@@ -69,9 +69,9 @@ Priority tiers: `3 = HIGH`, `2 = MEDIUM`, `1 = LOW`
 
 When bandwidth crosses 100 MB:
 
-- **LOW priority** packets are **always dropped**
-- **MEDIUM priority** packets have a **50% chance** of being dropped
-- **HIGH priority** packets are **always processed** regardless
+- **LOW priority** packets are **always dropped.**
+- **MEDIUM priority** packets have a **50% chance** of being dropped.
+- **HIGH priority** packets are **always processed** regardless.
 
 ---
 
