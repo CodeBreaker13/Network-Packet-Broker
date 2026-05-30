@@ -22,7 +22,7 @@ This project simulates exactly that decision-making process using a **Max-Heap p
 
 ## 🧠 The Real DSA — What's Actually Happening
 
-The core scheduling engine is powered by a manually implemented Max-Heap priority queue. The core algorithm is a genuine **Max-Heap** (binary heap), and it's doing real work.
+The core scheduling engine is powered by a manually implemented Max-Heap priority queue. The core algorithm is a genuine **Max-Heap** (binary heap), and it's doing real work implementation.
 
 ### Max-Heap: The Heart of the Engine
 
