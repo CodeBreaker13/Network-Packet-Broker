@@ -16,11 +16,11 @@ Realtime Network Packet Broker Simulation powered by a hand-built Max Heap
 
 NetBroker is a **visual, interactive simulation** of how real network routers prioritize and manage internet traffic. Every time you stream Netflix, play an online game, or send a message — routers have to decide _which packet gets processed first_ when thousands arrive at once.
 
-This project simulates exactly that decision-making process using a **Max-Heap priority queue** built from scratch, with a live dashboard showing every inject, process, and drop in real time scenario.
+This project simulates exactly that decision-making process using a **Max-Heap priority queue** built from scratch, with a live dashboard showing every inject, process, and drop in real time scenario. 
 
 ---
 
-## 🧠 The Real DSA — What's Actually Happening
+## 🧠 The Real DSA — What's Actually Happening in this engine
 
 The core scheduling engine is powered by a manually implemented Max-Heap priority queue. The core algorithm is a genuine **Max-Heap** (binary heap), and it's doing real work implementation.
 
