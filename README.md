@@ -65,7 +65,7 @@ Written with zero dependencies. Just array index math:
 
 Priority tiers: `3 = HIGH`, `2 = MEDIUM`, `1 = LOW`
 
-### Tail-Drop Policy
+### Tail-Drop Algo Policy
 
 When bandwidth crosses 100 MB:
 
