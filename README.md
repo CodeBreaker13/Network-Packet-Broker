@@ -115,6 +115,6 @@ When bandwidth crosses 100 MB:
 ## 👤 Author — GOURAV VED
 
 Built by me exploring how data structures power real infrastructure.  
-This project started as a DSA assignment and became a full interactive visualization.
+This project started as a DSA exploration in heaps and became a full interactive visualization.
 
 🔗 [Project Link Deployed on Vercel](https://network-packet-broker.vercel.app)
